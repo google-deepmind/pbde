@@ -1,25 +1,28 @@
-# pbde
+# A density estimation perspective on learning from pairwise human preferences
 
-TODO(b/312498489): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
-
-## Installation
-
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
+This repository contains a Colab notebook for reproducing experiments presented
+in [the paper](https://arxiv.org/abs/2311.14115).
 
 ## Usage
 
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+Open the notebook in Colab using this [direct link](https://colab.research.google.com/github/google-deepmind/pbde/blob/main/PBDE.ipynb).
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet.
+You can cite this work as
+
+```bibtex
+@article{dumoulin2023density,
+    title={A density estimation perspective on learning from pairwise human preferences},
+    author={
+      Vincent Dumoulin and Daniel D. Johnson and Pablo Samuel Castro and
+      Hugo Larochelle and Yann Dauphin
+    },
+    year={2023},
+    journal={arXiv preprint arXiv:2311.14115},
+    url={https://arxiv.org/abs/2311.14115},
+}
+```
 
 ## License and disclaimer
 
